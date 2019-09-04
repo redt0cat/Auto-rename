@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[174]:
-
-
 import os,shutil
 
 name = 'D:\\高考函授\函授_系統分析設計_張又中'
@@ -15,10 +12,6 @@ for i in range(40):
     print(list[i])
     start = list[i]
     print(start)
-
-
-# In[176]:
-
 
 #開始名稱 為要命名之路徑檔案
 startname = name+'\\'
@@ -33,16 +26,3 @@ for i in range(47):
     print(start)
     print(fin)
     shutil.move(''+start, ''+fin)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
